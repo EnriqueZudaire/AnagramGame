@@ -72,6 +72,7 @@ public class Anagrams extends JFrame {
             public void run() {
                 System.out.println (System.getProperty("sun.arch.data.model"));
                 System.out.println ("Here is another change");
+                System.out.println ("And here we add a third change from the GitHub website");
                 new Anagrams().setVisible(true);
             }
         });
