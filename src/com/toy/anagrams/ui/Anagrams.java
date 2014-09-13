@@ -71,6 +71,7 @@ public class Anagrams extends JFrame {
         SwingUtilities.invokeLater(new Runnable() {
             public void run() {
                 System.out.println (System.getProperty("sun.arch.data.model"));
+                System.out.println ("Here is another change");
                 new Anagrams().setVisible(true);
             }
         });
